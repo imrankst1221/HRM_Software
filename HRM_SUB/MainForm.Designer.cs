@@ -335,7 +335,6 @@
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(206)))), ((int)(((byte)(203)))));
             this.splitContainer1.Panel2.BackgroundImage = global::HRM_SUB.Properties.Resources.back;
             this.splitContainer1.Panel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(1032, 691);
             this.splitContainer1.SplitterDistance = 240;
             this.splitContainer1.SplitterIncrement = 3;

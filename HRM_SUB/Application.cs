@@ -63,15 +63,15 @@ namespace HRM_SUB
                         labelLocation.Text = reader.GetString(6);
                         labelContact.Text = reader.GetString(7);
                         labelApplicationDate.Text = "" + reader.GetDateTime(8).Date.ToString();
-                        labelStatus.Text = "" + reader.GetString(9);
-                        labelApplicationFor.Text = "Your Leave Application is approved";
+                        labelStatus.Text = "" + reader.GetDateTime(9).Date.ToString();
+                        labelApplicationFor.Text = "Your Leave Application ID approved";
                     }
                     reader.Close();
                     //Program.con.Close();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Surver Connection Error in Admin", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Surver Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 if(!dataFound)
                 {
@@ -108,31 +108,30 @@ namespace HRM_SUB
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Surver Connection Error Other", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Surver Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 if(!dataFound)
                 {
                     tabControl1.TabPages.Remove(viewNotification);
                 }
                 
-            }
+                try
+                {
+                    pictureBoxUser.Image = new Bitmap("E:\\Desktop\\HRM_SUB\\HRM_SUB\\img\\User Photo\\" + labelId.Text + ".png");
+                }
+                catch (Exception ex)
+                {
+                    pictureBoxUser.Image = new Bitmap("E:\\Desktop\\HRM_SUB\\HRM_SUB\\img\\User Photo\\default.png");
+                }
 
-            try
-            {
-                pictureBoxUser.Image = new Bitmap("E:\\Desktop\\HRM_SUB\\HRM_SUB\\img\\User Photo\\" + labelId.Text + ".png");
             }
-            catch (Exception ex)
-            {
-                pictureBoxUser.Image = new Bitmap("E:\\Desktop\\HRM_SUB\\HRM_SUB\\img\\User Photo\\default.png");
-            }
-
 
             try
             {
                 textAppNo.Text = getApplicationID();
             }
             catch (Exception ex) {
-                MessageBox.Show(ex.Message, "Surver Connection Error Get app ID", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Surver Connection Error I", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -193,7 +192,7 @@ namespace HRM_SUB
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Surver Connection Error Add application", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Surver Connection Error II", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -278,7 +277,7 @@ namespace HRM_SUB
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Surver Connection Error update", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Surver Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -296,7 +295,7 @@ namespace HRM_SUB
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Surver Connection Error update", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Surver Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

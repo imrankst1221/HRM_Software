@@ -355,9 +355,8 @@ namespace HRM_SUB
         {
             Program.isLoggedOn = false;
             UserLogIn userlog = new UserLogIn();
-            this.Hide();
+            Close();
             userlog.Show();
-            
         }
 
         private void sendApplicationDown(object sender, MouseEventArgs e)
@@ -565,12 +564,6 @@ namespace HRM_SUB
         {
             EmailAndChat emp = new EmailAndChat();
             emp.Show();
-        }
-
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-
         }
     }
 }

@@ -39,6 +39,18 @@ C:\Users\Administrator\Documents\OneDrive-2015-05-29\HRM_SUB\HRM_SUB\HRM_SUB\obj
 C:\Users\Administrator\Documents\OneDrive-2015-05-29\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.Properties.Resources.resources
 C:\Users\Administrator\Documents\OneDrive-2015-05-29\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.csproj.GenerateResource.Cache
 E:\Desktop\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.Form1.resources
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\bin\Debug\HRM_SUB.exe.config
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.exe
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.pdb
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\bin\Debug\HRM_SUB.exe
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\bin\Debug\HRM_SUB.pdb
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.csprojResolveAssemblyReference.cache
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.UserLogIn.resources
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.MainForm.resources
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.Properties.Resources.resources
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.csproj.GenerateResource.Cache
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.EmployeeForm.resources
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.EmailAndChat.resources
 E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\bin\Debug\HRM_SUB.exe.config
 E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.exe
 E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.pdb
@@ -51,4 +63,5 @@ E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.UserLogIn.resources
 E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.MainForm.resources
 E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.Properties.Resources.resources
 E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.csproj.GenerateResource.Cache
-E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\bin\Debug\HRM_SUB.exe.config
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.Report.resources
+E:\Desktop\HRM_SUB\HRM_SUB\HRM_SUB\obj\Debug\HRM_SUB.Application.resources

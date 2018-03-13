@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace HRM_SUB
+﻿namespace HRM_SUB
 {
     partial class Application
     {
@@ -543,11 +541,6 @@ namespace HRM_SUB
             this.sendNotification.PerformLayout();
             this.ResumeLayout(false);
 
-        }
-
-        internal static void Restart()
-        {
-            throw new NotImplementedException();
         }
 
         #endregion
